@@ -30,9 +30,6 @@ classDiagram
     class Program {
         + main(args: String[]): void
     }
-    class Program {
-        + main(args: String[]): void
-    }
     Program --> Department : utiliza
     Department --> Employee : * employees
     Department --> Address : 1 address
